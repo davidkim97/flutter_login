@@ -20,7 +20,7 @@ class CustomForm extends StatelessWidget {
             onPressed: () {
               if (_formKey.currentState!.validate()) {
                 // 유효성 검사
-                Navigator.pushNamed(context, "/home");
+                Navigator.pushNamed(context, "/home"); // Navigator를 이용하여 화면전환
               }
             },
             child: Text("Login"),
